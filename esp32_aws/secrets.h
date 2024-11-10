@@ -6,8 +6,8 @@
 #define SECRET
 #define THINGNAME "test"
 
-const char WIFI_SSID[] = "Yeshu";
-const char WIFI_PASSWORD[] = "75156411";
+const char WIFI_SSID[] = "SSID";
+const char WIFI_PASSWORD[] = "password;
 const char AWS_IOT_ENDPOINT[] = "a3ajz21s0dnzor-ats.iot.ap-south-1.amazonaws.com";
 
 // Amazon Root CA 1
