@@ -114,6 +114,24 @@ Certainly! Here’s an expanded breakdown of each topic:
    - **FTP (File Transfer Protocol)**: Transfers files over networks, often used to upload data from remote sensors to central systems.
    - **SMTP (Simple Mail Transfer Protocol)**: A protocol for sending emails, which can be used to send alerts in IIoT setups.
 
-These protocols and technologies are foundational in IIoT, making it possible to monitor, analyze, and control industrial operations remotely and efficiently. Let me know if you need deeper insights into any specific
+---
 
- area!
+Here are the standard port numbers for each of these protocols:
+
+1. **MQTT (Message Queuing Telemetry Transport)**  
+   - **Port 1883**: Default port for unencrypted MQTT communication.
+   - **Port 8883**: Default port for MQTT over TLS/SSL (encrypted).
+
+2. **CoAP (Constrained Application Protocol)**  
+   - **Port 5683**: Default port for unencrypted CoAP.
+   - **Port 5684**: Default port for CoAP over DTLS (Datagram Transport Layer Security, for encrypted communication).
+
+3. **FTP (File Transfer Protocol)**  
+   - **Port 21**: Control port for initiating FTP commands.
+   - **Port 20**: Data port for transferring files in active FTP mode.
+   - **Passive Mode Ports**: A range of ports defined by the server (often between **1024–65535**), used for data transfer in passive FTP mode.
+
+4. **SMTP (Simple Mail Transfer Protocol)**  
+   - **Port 25**: Default port for SMTP communication (mostly used for server-to-server email transfer).
+   - **Port 587**: Preferred port for SMTP with STARTTLS (encryption) for client-to-server email submission.
+   - **Port 465**: Port for SMTPS (SMTP over SSL), though less commonly used than port 587 for encrypted connections.
