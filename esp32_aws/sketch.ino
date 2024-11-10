@@ -152,7 +152,7 @@ void loop() {
         publishMessage();
     } else {
         Serial.println("DHT Sensor reading error!");
-        publishMessage();
+        // publishMessage();
     }
     
     client.loop();
